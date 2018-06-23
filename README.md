@@ -23,4 +23,4 @@ cd twitch-batch-loader
 python batchloader.py <YOUR AWESOME CLIENT ID>
 ```
 
-Voil√†! once you see the finished message in your terminal, check the `downloads` folder in this repo and you should see the videos there.
+Voil‡! once you see the finished message in your terminal, check the `downloads` folder in this repo and you should see the videos there.
