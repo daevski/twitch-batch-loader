@@ -35,7 +35,7 @@ for clip in open('clips.txt', 'r'):
     output_path = (basepath + out_filename)
 
     print('\nDownloading clip slug: ' + slug)
-    print('"' + clip_title + '" -> ' + out_filename)
+    print('Creating: ' + out_filename)
     print(mp4_url)
     urllib.request.urlretrieve(mp4_url, output_path, reporthook=dl_progress)
     print('\nDone.')
